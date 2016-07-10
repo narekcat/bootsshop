@@ -28,10 +28,10 @@
          </div>
         <div id="socialMedia" class="span3 pull-right">
             <h5>SOCIAL MEDIA </h5>
-            <a href="#"><img width="60" src="assets/img/facebook.png" title="facebook"/></a>
-            <a href="#"><img width="60" src="assets/img/twitter.png" title="twitter"/></a>
-            <a href="#"><img width="60" src="assets/img/rss.png" title="rss"/></a>
-            <a href="#"><img width="60" src="assets/img/youtube.png" title="youtube"/></a>
+            <a href="#"><img width="60" src="<?=base_url()?>assets/frontend/assets/img/facebook.png" title="facebook"/></a>
+            <a href="#"><img width="60" src="<?=base_url()?>assets/frontend/assets/img/twitter.png" title="twitter"/></a>
+            <a href="#"><img width="60" src="<?=base_url()?>assets/frontend/assets/img/rss.png" title="rss"/></a>
+            <a href="#"><img width="60" src="<?=base_url()?>assets/frontend/assets/img/youtube.png" title="youtube"/></a>
          </div> 
      </div>
      <hr class="soft">
@@ -43,24 +43,24 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/google-code-prettify/prettify.js"></script>
-    <script src="assets/js/application.js"></script>
-    <script src="assets/js/bootstrap-transition.js"></script>
-    <script src="assets/js/bootstrap-modal.js"></script>
-    <script src="assets/js/bootstrap-scrollspy.js"></script>
-    <script src="assets/js/bootstrap-alert.js"></script>
-    <script src="assets/js/bootstrap-dropdown.js"></script>
-    <script src="assets/js/bootstrap-tab.js"></script>
-    <script src="assets/js/bootstrap-tooltip.js"></script>
-    <script src="assets/js/bootstrap-popover.js"></script>
-    <script src="assets/js/bootstrap-button.js"></script>
-    <script src="assets/js/bootstrap-collapse.js"></script>
-    <script src="assets/js/bootstrap-carousel.js"></script>
-    <script src="assets/js/bootstrap-typeahead.js"></script>
-    <script src="assets/js/bootstrap-affix.js"></script>
-    <script src="assets/js/jquery.lightbox-0.5.js"></script>
-    <script src="assets/js/bootsshoptgl.js"></script>
+    <script src="<?=base_url()?>assets/frontend/assets/js/jquery.js"></script>
+    <script src="<?=base_url()?>assets/frontend/assets/js/google-code-prettify/prettify.js"></script>
+    <script src="<?=base_url()?>assets/frontend/assets/js/application.js"></script>
+    <script src="<?=base_url()?>assets/frontend/assets/js/bootstrap-transition.js"></script>
+    <script src="<?=base_url()?>assets/frontend/assets/js/bootstrap-modal.js"></script>
+    <script src="<?=base_url()?>assets/frontend/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="<?=base_url()?>assets/frontend/assets/js/bootstrap-alert.js"></script>
+    <script src="<?=base_url()?>assets/frontend/assets/js/bootstrap-dropdown.js"></script>
+    <script src="<?=base_url()?>assets/frontend/assets/js/bootstrap-tab.js"></script>
+    <script src="<?=base_url()?>assets/frontend/assets/js/bootstrap-tooltip.js"></script>
+    <script src="<?=base_url()?>assets/frontend/assets/js/bootstrap-popover.js"></script>
+    <script src="<?=base_url()?>assets/frontend/assets/js/bootstrap-button.js"></script>
+    <script src="<?=base_url()?>assets/frontend/assets/js/bootstrap-collapse.js"></script>
+    <script src="<?=base_url()?>assets/frontend/assets/js/bootstrap-carousel.js"></script>
+    <script src="<?=base_url()?>assets/frontend/assets/js/bootstrap-typeahead.js"></script>
+    <script src="<?=base_url()?>assets/frontend/assets/js/bootstrap-affix.js"></script>
+    <script src="<?=base_url()?>assets/frontend/assets/js/jquery.lightbox-0.5.js"></script>
+    <script src="<?=base_url()?>assets/frontend/assets/js/bootsshoptgl.js"></script>
      <script type="text/javascript">
     $(function() {
         $('#gallery a').lightBox();

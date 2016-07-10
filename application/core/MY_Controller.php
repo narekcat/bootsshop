@@ -5,8 +5,8 @@ if (!defined('BASEPATH')) {
 
 class MY_Controller extends CI_Controller
 {
-    private $_container;
-    private $_modules;
+    protected $_container;
+    protected $_modules;
 
     public function __construct()
     {

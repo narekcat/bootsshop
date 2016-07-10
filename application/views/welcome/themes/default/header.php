@@ -13,12 +13,12 @@
      -->
      
     <!-- Le styles  -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet"/>
-    <link href="assets/css/docs.css" rel="stylesheet"/>
+    <link href="<?=base_url()?>assets/frontend/assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="<?=base_url()?>assets/frontend/assets/css/bootstrap-responsive.css" rel="stylesheet"/>
+    <link href="<?=base_url()?>assets/frontend/assets/css/docs.css" rel="stylesheet"/>
      
-    <link href="style.css" rel="stylesheet"/>
-    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet"/>
+    <link href="<?=base_url()?>assets/frontend/style.css" rel="stylesheet"/>
+    <link href="<?=base_url()?>assets/frontend/assets/js/google-code-prettify/prettify.css" rel="stylesheet"/>
 
     
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -27,11 +27,11 @@
     <![endif]-->
 
     <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="<?=base_url()?>assets/frontend/assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?=base_url()?>assets/frontend/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?=base_url()?>assets/frontend/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?=base_url()?>assets/frontend/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="<?=base_url()?>assets/frontend/assets/ico/apple-touch-icon-57-precomposed.png">
   </head>
 <body>
   <!-- Navbar
@@ -39,7 +39,7 @@
 <div class="navbar navbar-fixed-top">
               <div class="navbar-inner">
                 <div class="container">
-                    <a id="logoM" href="index.html"><img src="assets/img/logo.png" alt="Bootsshop"/></a>
+                    <a id="logoM" href="index.html"><img src="<?=base_url()?>assets/frontend/assets/img/logo.png" alt="Bootsshop"/></a>
                   <a data-target="#sidebar" data-toggle="collapse" class="btn btn-navbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -85,7 +85,7 @@
 <header id="header">
 <div class="row">
 <div class="span12">
-    <a href="index.html"><img src="assets/img/logo.png" alt="Bootsshop"/></a>
+    <a href="index.html"><img src="<?=base_url()?>assets/frontend/assets/img/logo.png" alt="Bootsshop"/></a>
 <div class="pull-right"> <br/>
     <a href="product_summary.html"> <span class="btn btn-mini btn-warning"> <i class="icon-shopping-cart icon-white"></i> [ 3 ] </span> </a>
     <a href="product_summary.html"><span class="btn btn-mini active">$155.00</span></a>
