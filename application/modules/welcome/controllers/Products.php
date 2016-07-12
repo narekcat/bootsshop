@@ -10,18 +10,29 @@ class Products extends MY_Controller
 
     public function index()
     {
-        $data['page'] = $this->config->item('bootsshop_tamplate_dir_welcome') . 'products';
+        $this->load->model(array('welcome/productsmodel' => 'productsModel'));
+        $data['products'] = $this->productsModel->getAll();
+        $data['product_categories'] = $this->productsModel->getCategories();
+        $data['current_page'] = 'products';
+        $data['page'] = $this->config->item('bootsshop_template_dir_welcome') . 'products';
         $this->load->view($this->_container, $data);
     }
 
     public function productDetails($productId)
     {
+        $this->load->model(array('welcome/productsModel' => 'productsModel'));
+        $data['product'] = $this->productsModel->getById($productId);
+        $data['product_categories'] = $this->productsModel->getCategories();
+        $data['featured_image'] = $this->productsModel->getFeaturedImage($productId);
+        $data['product_images'] = $this->productsModel->getProductImages($productId);
+        $data['current_page'] = 'products';
         $data['page'] = $this->config->item('bootsshop_template_dir_welcome') . 'product_details';
         $this->load->view($this->_container, $data);
     }
 
     public function productCategories($categoryId)
     {
+        $data['current_page'] = 'products';
         $data['page'] = $this->config->item('bootsshop_template_dir_welcome') . 'product_details';
         $this->load_>view($this->_container, $data);
     }

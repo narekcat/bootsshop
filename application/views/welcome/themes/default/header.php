@@ -5,11 +5,12 @@
     <title>Online Shop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
+    <meta name="keywords" content="">
     <meta name="author" content="">
 
     <!-- Less styles  
-    <link rel="stylesheet/less" type="text/css" href="less/bootsshop.less">
-    <script src="less.js" type="text/javascript"></script>
+    <link rel="stylesheet/less" type="text/css" href="<?=base_url()?>assets/frontend/less/bootsshop.less">
+    <script src="<?=base_url()?>assets/frontend/less.js" type="text/javascript"></script>
      -->
      
     <!-- Le styles  -->
@@ -39,7 +40,7 @@
 <div class="navbar navbar-fixed-top">
               <div class="navbar-inner">
                 <div class="container">
-                    <a id="logoM" href="index.html"><img src="<?=base_url()?>assets/frontend/assets/img/logo.png" alt="Bootsshop"/></a>
+                    <a id="logoM" href="<?=base_url()?>"><img src="<?=base_url()?>assets/frontend/assets/img/logo.png" alt="Bootsshop"/></a>
                   <a data-target="#sidebar" data-toggle="collapse" class="btn btn-navbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -47,10 +48,11 @@
                   </a>
                   <div class="nav-collapse">
                     <ul class="nav">
-                      <li class="active"><a href="index.html">Home  </a></li>
-                      <li class=""><a href="special_offer.html">Specials Offer</a></li>
-                      <li class=""><a href="normal.html">Delivery</a></li>
-                      <li class=""><a href="contact.html">Contact</a></li>
+                      <li class="<?=($current_page == 'home') ? 'active' : ''?>"><a href="<?=base_url()?>">Home </a></li>
+                      <li class="<?=($current_page == 'about-us') ? 'active' : ''?>"><a href="<?=base_url()?>about-us">About Us</a></li>
+                      <li class="<?=($current_page == 'products') ? 'active' : ''?>"><a href="<?=base_url()?>products">Products</a></li>
+                      <li class="<?=($current_page == 'delivery') ? 'active' : ''?>"><a href="<?=base_url()?>delivery">Delivery</a></li>
+                      <li class="<?=($current_page == 'contact-us') ? 'active' : ''?>"><a href="<?=base_url()?>contact-us">Contact Us</a></li>
                     </ul>
                     <form action="#" class="navbar-search pull-left">
                      <input id="srchFld" type="text" placeholder="I'm looking for ..." class="search-query span5"/>
@@ -85,7 +87,7 @@
 <header id="header">
 <div class="row">
 <div class="span12">
-    <a href="index.html"><img src="<?=base_url()?>assets/frontend/assets/img/logo.png" alt="Bootsshop"/></a>
+    <a href="<?=base_url()?>"><img src="<?=base_url()?>assets/frontend/assets/img/logo.png" alt="Bootsshop"/></a>
 <div class="pull-right"> <br/>
     <a href="product_summary.html"> <span class="btn btn-mini btn-warning"> <i class="icon-shopping-cart icon-white"></i> [ 3 ] </span> </a>
     <a href="product_summary.html"><span class="btn btn-mini active">$155.00</span></a>
